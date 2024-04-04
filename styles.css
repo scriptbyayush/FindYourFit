@@ -1,0 +1,190 @@
+
+
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     font-family: 'Product Sans', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-resolution:inherit;    
+}
+.logo{
+    background-image: url("fiff.jpg");
+    background-size:cover;
+    height: 80px;
+    width:80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px 5px midnightblue;
+}
+.tabs-container txe {
+       display: inline-block;
+ margin-right: 540px;
+margin-top: 28px;
+font-size: 40px;
+font-family: 'Product Sans', sans-serif;
+font-weight: bold;
+
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    border-bottom-left-radius: 2px ;
+    position: relative;
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: #f2eded;
+    background-color:rgba(246, 127, 30, 0.815);
+    padding: 20px;
+}
+
+.tabs-container{
+    display:inline-flex;
+    gap: 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.tab {
+    text-size-adjust: 10px;
+    background-color:inherit;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    padding: 10px 16px;
+    font-size: 22px;
+    font-weight: bold;
+    transition: transform 0.3s; 
+    border-radius: 100px;
+    margin-top: 25px;
+    margin-right: 20px;
+
+}
+
+.tab:hover {
+    transform: scale(1.2); 
+    background-color: #c86304;
+}
+
+.tab.active {
+    background-color: #c86304;
+    border-radius: 90px;
+}
+
+
+.mydiv{
+    
+    padding: 40px;
+     padding-left: 80px;
+
+ padding-right: 130px;      
+
+   
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+h2 {
+    color:rgb(140, 42, 6);
+    text-align:justify;
+    font-size: xx-large;
+    
+}
+p {
+    text-align: justify;
+    font-weight: bold;
+}
+
+#b1{
+    background-color:sandybrown;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 40px;
+    box-shadow: 1.5px 1.5px lightslategrey;
+    font-weight: bold;
+}
+#b1:hover{
+    color: orangered;
+    transform: scale(1.1);
+    transition: transform 0.4s;
+ }
+#b2{
+    background-color:darkgrey;
+    padding: 2px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 50px;
+    box-shadow: 1.5px 1.5px lightslategrey;
+}
+h3{
+    font-weight: bolder;
+    font-size: larger;
+}
+input[type=text]{
+    height: 25px;
+   border-radius: 7px ;
+   background-color: gainsboro;
+   box-shadow: lightslategray;
+   padding: 1px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type=number]{
+    height: 25px;
+    border-radius: 10px ;
+    background-color: gainsboro;
+    box-shadow: lightslategray;
+    padding: 1px;
+    font-weight: bold;;
+}
+input:focus{
+    background-color: #a29f9f;
+    
+}
+select{
+    height: 25px;
+    font-weight: bold;
+    padding: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:hidden #252222;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: gainsboro;
+    appearance: none;
+    cursor: pointer;
+    text-align:justify
+    
+}
+#submit{
+    width:90px;
+    background-color:aliceblue;
+    font-size:medium;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color:rgb(251, 229, 173);
+    transform: scale(1.1) translate(4px);
+}
+label{
+    font-size: large;
+    font-weight:700;
+}
+#images{
+    margin-top: 25px;
+}
